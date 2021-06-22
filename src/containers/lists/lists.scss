@@ -1,0 +1,26 @@
+.lists {
+	float: left;
+	margin: 40px;
+
+	.marker-container {
+		margin: 40px 0;
+
+		ul{
+			list-style: none;
+			padding: 0;
+		}
+
+		.marker-lists {
+			height: 600px;
+			overflow: scroll;
+
+			.marker-list {
+				border-bottom: 1px solid black;
+			}
+		}
+	}
+
+	.cp-button {
+		margin: 20px 0;
+	}
+}
